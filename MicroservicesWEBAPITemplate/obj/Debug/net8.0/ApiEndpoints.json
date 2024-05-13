@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.BiddingController",
+    "ContainingType": "BiddingService.Controllers.BiddingController",
     "Method": "PlaceBid",
     "RelativePath": "api/Bidding",
     "HttpMethod": "POST",
@@ -9,14 +9,14 @@
     "Parameters": [
       {
         "Name": "bid",
-        "Type": "MicroservicesWEBAPITemplate.Models.Bid",
+        "Type": "BiddingService.Models.Bid",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.NotificationController",
+    "ContainingType": "BiddingService.Controllers.NotificationController",
     "Method": "GetNotification",
     "RelativePath": "api/Notification",
     "HttpMethod": "POST",
@@ -25,14 +25,14 @@
     "Parameters": [
       {
         "Name": "noti",
-        "Type": "MicroservicesWEBAPITemplate.Models.Notification",
+        "Type": "BiddingService.Models.Notification",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.WeatherForecastController",
+    "ContainingType": "BiddingService.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
     "HttpMethod": "GET",
@@ -41,7 +41,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[MicroservicesWEBAPITemplate.WeatherForecast, MicroservicesWEBAPITemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BiddingService.WeatherForecast, BiddingService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
