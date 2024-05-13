@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MicroservicesWEBAPITemplate")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0761aea52e172599aca2fd83a66a09ecb169f8e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a6a2a2c30c1c505402c1116c76aa54540c0511a")]
 [assembly: System.Reflection.AssemblyProductAttribute("MicroservicesWEBAPITemplate")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MicroservicesWEBAPITemplate")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

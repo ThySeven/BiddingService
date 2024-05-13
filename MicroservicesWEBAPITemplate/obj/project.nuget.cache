@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MfLibr4wWtPIZQAVk3BXzQYDS1jpPA0XhDgGpyvkIJYD90ymUPb7/X/561AKNRaGlumd2MTjIZ6d+o2iwQji+Q==",
+  "dgSpecHash": "HCU4xIEkoS+DaFhigbn7aBR4G7jdI1w0KnAan4aWQnO9jBJmCTfGKtdHbciUYaPez6iMd9EwJP6idBOD5CitDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj",
+  "projectFilePath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\BiddingService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Anti_\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Anti_\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

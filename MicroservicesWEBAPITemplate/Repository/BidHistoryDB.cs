@@ -15,10 +15,7 @@ namespace BiddingService.Repository
             var client = new MongoClient(_connectionString);
             var database = client.GetDatabase("AuctionCoreServices");
             _bidHistoryCollection = database.GetCollection<Bid>("BidHistory");
-            foreach(var bid in _bidHistoryCollection)
-            {
-                Console.WriteLine(bid);
-            }
+
         }
 
     }

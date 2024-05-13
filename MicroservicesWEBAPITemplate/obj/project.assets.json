@@ -2034,9 +2034,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj",
-      "projectName": "MicroservicesWEBAPITemplate",
-      "projectPath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj",
+      "projectUniqueName": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\BiddingService.csproj",
+      "projectName": "BiddingService",
+      "projectPath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\BiddingService.csproj",
       "packagesPath": "C:\\Users\\Anti_\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\obj\\",
       "projectStyle": "PackageReference",
