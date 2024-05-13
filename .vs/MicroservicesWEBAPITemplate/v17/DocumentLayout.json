@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\models\\mailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\models\\mailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\repository\\bidhistorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\repository\\bidhistorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\repository\\ibiddingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\repository\\ibiddingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\repository\\iviewbidhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\repository\\iviewbidhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\service\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\service\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\repository\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\repository\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\rabbitmqtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\rabbitmqtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|c:\\users\\anti_\\downloads\\templatewebapi-main\\templatewebapi-main\\microserviceswebapitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\MicroservicesWEBAPITemplate.csproj|solutionrelative:microserviceswebapitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BidHistoryDB.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:57:30.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IViewBidHistory.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:53:25.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Notification.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\Notification.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\Notification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:12:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MailModel.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T12:03:01.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:59:03.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "INotification.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:17:36.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-13T10:49:07.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RabbitMQTemplate.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T10:16:44.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bid.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\Bid.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Bid.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Models\\Bid.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\Bid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:06:48.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BidService.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Service\\BidService.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Service\\BidService.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Service\\BidService.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Service\\BidService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:57:19.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BiddingController.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
+              "ViewState": "AQIAABEAAACAZmZmZmYgwDYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:32:43.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IBiddingRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T08:20:22.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Program.cs",
+              "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Program.cs",
+              "ToolTip": "C:\\Users\\Anti_\\Downloads\\TemplateWebAPI-main\\TemplateWebAPI-main\\MicroservicesWEBAPITemplate\\Program.cs",
+              "RelativeToolTip": "MicroservicesWEBAPITemplate\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T12:35:40.115Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

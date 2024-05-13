@@ -1,0 +1,54 @@
+[
+  {
+    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.BiddingController",
+    "Method": "PlaceBid",
+    "RelativePath": "api/Bidding",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bid",
+        "Type": "MicroservicesWEBAPITemplate.Models.Bid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.NotificationController",
+    "Method": "GetNotification",
+    "RelativePath": "api/Notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "noti",
+        "Type": "MicroservicesWEBAPITemplate.Models.Notification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MicroservicesWEBAPITemplate.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[MicroservicesWEBAPITemplate.WeatherForecast, MicroservicesWEBAPITemplate, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
