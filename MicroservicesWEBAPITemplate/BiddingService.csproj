@@ -19,12 +19,16 @@
 
   <ItemGroup>
     <PackageReference Include="JWT" Version="10.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.4" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.5.2" />
     <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
     <PackageReference Include="NLog" Version="5.3.2" />
     <PackageReference Include="NLog.Targets.Loki" Version="2.2.0" />
     <PackageReference Include="NLog.Web.AspNetCore" Version="5.3.10" />
     <PackageReference Include="RabbitMQ.Client" Version="6.8.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.5.2" />
+    <PackageReference Include="VaultSharp" Version="1.13.0.1" />
   </ItemGroup>
 
   <ItemGroup>

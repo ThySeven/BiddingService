@@ -21,9 +21,13 @@
         "RabbitMQHostName": "localhost",
         "RabbitMQQueueName": "MailQueue",
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "BiddingQueueName": "BiddingQueue"
-       
-        
+        "BiddingQueueName": "BiddingQueue",
+        "VAULT_IP": "https://localhost:8201",
+        "VAULT_SECRET": "1a2b3c4d-5e6f-7g8h-9i0j-123456789abc",
+        "MongoDBConnectionString": "mongodb://admin:1234@localhost:27018",
+        "GrafanaHostname": "biddingservice"
+
+
       }
     },
     "https": {
@@ -38,7 +42,11 @@
         "BiddingQueueName": "BiddingQueue",
         "LokiServerName": "LokiServer",
         "LokiEndpoint": "http://localhost:3100",
-        "RabbitMQQueueName": "MailQueue"
+        "RabbitMQQueueName": "MailQueue",
+        "VAULT_IP": "https://localhost:8201",
+        "VAULT_SECRET": "1a2b3c4d-5e6f-7g8h-9i0j-123456789abc",
+        "MongoDBConnectionString": "mongodb://admin:1234@localhost:27018",
+        "GrafanaHostname": "biddingservice"
       }
     },
     "IIS Express": {
