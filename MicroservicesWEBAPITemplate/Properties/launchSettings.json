@@ -19,10 +19,10 @@
         "LokiServerName": "LokiServer",
         "LokiEndpoint": "http://localhost:3100",
         "RabbitMQHostName": "localhost",
-        "RabbitMQQueueName": "BiddingQueue",
+        "RabbitMQQueueName": "MailQueue",
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "BiddingQueueName": "BiddingQueue",
-        "MailQueueName": "MailQueue"
+        "BiddingQueueName": "BiddingQueue"
+       
         
       }
     },
@@ -38,7 +38,7 @@
         "BiddingQueueName": "BiddingQueue",
         "LokiServerName": "LokiServer",
         "LokiEndpoint": "http://localhost:3100",
-        "MailQueueName": "MailQueue"
+        "RabbitMQQueueName": "MailQueue"
       }
     },
     "IIS Express": {

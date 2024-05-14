@@ -5,6 +5,6 @@ namespace BiddingService.Repository
 {
     public interface INotification
     {
-        public Task GetNotification(Notification noti);
+        public Task GetNotification(Notification notification);
     }
 }
