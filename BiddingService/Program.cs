@@ -45,27 +45,68 @@ IVaultClient vaultClient = new VaultClient(vaultClientSettings);
 Secret<SecretData> kv2Secret = await vaultClient.V1.Secrets.KeyValue.V2.ReadSecretAsync(path: "jwt", mountPoint: "secret");
 var jwtSecret = kv2Secret.Data.Data["secret"];
 var jwtIssuer = kv2Secret.Data.Data["issuer"];
+var vaultjwtInternalApiKey = kv2Secret.Data.Data["internalApiKey"];
 
-// Extracting JWT configuration
 string mySecret = Convert.ToString(jwtSecret) ?? "none";
 string myIssuer = Convert.ToString(jwtIssuer) ?? "none";
-
-// Adding JWT authentication to the service
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-    .AddJwtBearer(options =>
+string vaultInternalApiKey = Convert.ToString(vaultjwtInternalApiKey) ?? "none";
+WebManager.GetInstance.HttpClient.DefaultRequestHeaders.Add("X-Internal-ApiKey", vaultInternalApiKey);
+builder.Services
+.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+.AddJwtBearer(options =>
+{
+    options.TokenValidationParameters = new TokenValidationParameters()
     {
-        options.TokenValidationParameters = new TokenValidationParameters()
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+        ValidIssuer = myIssuer,
+        ValidAudience = "http://localhost",
+        IssuerSigningKey =
+    new SymmetricSecurityKey(Encoding.UTF8.GetBytes(mySecret))
+    };
+    options.Events = new JwtBearerEvents
+    {
+        OnMessageReceived = context =>
         {
-            ValidateIssuer = true,
-            ValidateAudience = true,
-            ValidateLifetime = true,
-            ValidateIssuerSigningKey = true,
-            ValidIssuer = myIssuer,
-            ValidAudience = "http://localhost",
-            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(mySecret))
-        };
-    });
+            // Check for the internal API key header
+            if (context.Request.Headers.TryGetValue("X-Internal-ApiKey", out var extractedApiKey))
+            {
+                var internalApiKey = vaultInternalApiKey; // or fetch from configuration
+                if (internalApiKey.Equals(extractedApiKey))
+                {
+                    // Set a flag to indicate this is an internal request
+                    context.HttpContext.Items["InternalRequest"] = true;
 
+                    // Skip JWT token validation for internal requests
+                    context.NoResult();
+                    context.Response.Headers.Add("X-Auth-Skipped", "true");
+                }
+            }
+            return Task.CompletedTask;
+        },
+        OnTokenValidated = context =>
+        {
+            // If it's an internal request, mark it as successful
+            if (context.HttpContext.Items.ContainsKey("InternalRequest"))
+            {
+                context.Success();
+                return Task.CompletedTask;
+            }
+            return Task.CompletedTask;
+        },
+        OnChallenge = context =>
+        {
+            // If it's an internal request, don't return a 401 error
+            if (context.HttpContext.Items.ContainsKey("InternalRequest"))
+            {
+                context.HandleResponse(); // This suppresses the default 401
+            }
+            return Task.CompletedTask;
+        }
+    };
+});
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
