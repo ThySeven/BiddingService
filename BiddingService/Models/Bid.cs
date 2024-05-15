@@ -12,7 +12,7 @@ namespace BiddingService.Models
         public Bid(int amount, string bidder, DateTime timestamp)
         {
             Amount = amount;
-            Bidder = bidder;
+            BidderId = bidder;
             Timestamp = timestamp;
         }
 
