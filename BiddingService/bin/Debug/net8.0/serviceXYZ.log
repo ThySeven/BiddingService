@@ -552,3 +552,392 @@
 2024-05-15 10:05:00.5647|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMMQVB735" sending FIN because: "The Socket transport's send loop completed gracefully."
 2024-05-15 10:05:00.5647|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMMQVB735 completed.
 2024-05-15 10:05:00.5647|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMMQVB735" stopped.
+2024-05-15 10:10:25.3367|DEBUG|BiddingService.Program|init main
+2024-05-15 10:10:27.1042|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-15 10:10:27.2679|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-05-15 10:10:27.3274|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 10:10:27.3581|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-00938bdf-98fe-4ed7-bd18-567c755e8dae.xml'.
+2024-05-15 10:10:27.3670|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-202e778a-2ced-4d36-9ca2-13780531bd1e.xml'.
+2024-05-15 10:10:27.3670|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-ec9528b5-4d07-4d15-b274-828eed4272d7.xml'.
+2024-05-15 10:10:27.4044|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00938bdf-98fe-4ed7-bd18-567c755e8dae}.
+2024-05-15 10:10:27.4198|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {202e778a-2ced-4d36-9ca2-13780531bd1e}.
+2024-05-15 10:10:27.4246|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ec9528b5-4d07-4d15-b274-828eed4272d7}.
+2024-05-15 10:10:27.4457|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {ec9528b5-4d07-4d15-b274-828eed4272d7} with expiration date 2024-08-05 10:42:18Z as default key.
+2024-05-15 10:10:27.4678|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:10:27.4678|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-05-15 10:10:27.4731|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:10:27.4731|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-15 10:10:27.4731|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-15 10:10:27.4731|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {ec9528b5-4d07-4d15-b274-828eed4272d7} as the default key.
+2024-05-15 10:10:27.4731|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {ec9528b5-4d07-4d15-b274-828eed4272d7} was loaded during application startup.
+2024-05-15 10:10:27.7995|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7241
+2024-05-15 10:10:27.7995|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5143
+2024-05-15 10:10:27.7995|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BiddingService
+2024-05-15 10:10:27.7995|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-05-15 10:10:27.7995|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-15 10:10:27.7995|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-15 10:10:27.8991|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-15 10:10:27.9148|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-15 10:10:27.9148|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Claras PC\Desktop\4 semester\projekt\biddingservice\BiddingService
+2024-05-15 10:10:27.9148|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-05-15 10:10:28.1172|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71U" accepted.
+2024-05-15 10:10:28.1172|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71T" accepted.
+2024-05-15 10:10:28.1172|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71T" started.
+2024-05-15 10:10:28.1172|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71U" started.
+2024-05-15 10:10:28.8708|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71T" received FIN.
+2024-05-15 10:10:28.8708|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71U" received FIN.
+2024-05-15 10:10:28.8785|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:10:28.9034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71T" stopped.
+2024-05-15 10:10:28.9578|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:10:28.9578|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71U" stopped.
+2024-05-15 10:10:28.9578|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:10:28.9851|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:10:30.8577|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71V" accepted.
+2024-05-15 10:10:30.8577|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71V" started.
+2024-05-15 10:10:31.1493|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMPTKM71V established using the following protocol: Tls12
+2024-05-15 10:10:31.5131|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/index.html - - -
+2024-05-15 10:10:32.0452|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-05-15 10:10:32.2010|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-05-15 10:10:32.2010|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:10:32.4868|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-05-15 10:10:32.4890|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-05-15 10:10:32.5758|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-05-15 10:10:32.5758|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-05-15 10:10:32.5832|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/index.html - 200 - text/html;charset=utf-8 1070.5390ms
+2024-05-15 10:10:33.0118|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-15 10:10:33.2794|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 267.6166ms
+2024-05-15 10:10:33.4576|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - - -
+2024-05-15 10:10:35.0638|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 1606.1027ms
+2024-05-15 10:10:35.8411|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - - -
+2024-05-15 10:10:36.0205|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-15 10:10:36.0205|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:10:36.7325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 891.2894ms
+2024-05-15 10:10:41.0761|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71V" received FIN.
+2024-05-15 10:10:41.0919|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMPTKM71V" is closed. The last processed stream ID was 7.
+2024-05-15 10:10:41.0919|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM71V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:10:41.0969|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMPTKM71V completed.
+2024-05-15 10:10:41.0969|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM71V" stopped.
+2024-05-15 10:10:56.5181|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM720" accepted.
+2024-05-15 10:10:56.5181|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM720" started.
+2024-05-15 10:10:56.5356|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMPTKM720 established using the following protocol: Tls12
+2024-05-15 10:10:56.5356|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7241/api/Notification - application/json 244
+2024-05-15 10:10:56.5542|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notification'
+2024-05-15 10:10:56.5542|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)' with route pattern 'api/Notification' is valid for the request path '/api/Notification'
+2024-05-15 10:10:56.5542|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:10:56.5702|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-05-15 10:10:56.6324|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-05-15 10:10:56.6324|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:10:56.6919|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotification(BiddingService.Models.Notification) on controller BiddingService.Controllers.NotificationController (BiddingService).
+2024-05-15 10:10:56.6919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-15 10:10:56.6919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-05-15 10:10:56.6919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-15 10:10:56.6919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-15 10:10:56.6919|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-15 10:10:56.7083|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:10:56.7223|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:10:56.7372|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:10:56.7372|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' using the name '' in request data ...
+2024-05-15 10:10:56.7372|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-15 10:10:56.7582|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM720", Request id "0HN3KMPTKM720:00000001": started reading request body.
+2024-05-15 10:10:56.7582|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM720", Request id "0HN3KMPTKM720:00000001": done reading request body.
+2024-05-15 10:10:56.7692|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter threw an exception: '0xE2' is an invalid start of a value. Path: $.LotID | LineNumber: 1 | BytePositionInLine: 17.
+2024-05-15 10:10:56.7692|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:10:56.7692|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:10:56.7692|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:10:56.7692|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter|The request has model state errors, returning an error response.
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-05-15 10:10:56.7853|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-05-15 10:10:56.7853|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-15 10:10:56.8376|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BiddingService.Controllers.NotificationController.GetNotification (BiddingService) in 118.2668ms
+2024-05-15 10:10:56.8376|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:10:56.8376|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7241/api/Notification - 400 - application/problem+json;+charset=utf-8 298.7694ms
+2024-05-15 10:11:01.0901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM720" received FIN.
+2024-05-15 10:11:01.0901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMPTKM720" is closed. The last processed stream ID was 1.
+2024-05-15 10:11:01.0901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM720" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:11:01.0901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMPTKM720 completed.
+2024-05-15 10:11:01.0901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM720" stopped.
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM721" accepted.
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM721" started.
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMPTKM721 established using the following protocol: Tls12
+2024-05-15 10:11:34.7996|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:7241/api/Notification - application/json 244
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notification'
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)' with route pattern 'api/Notification' is valid for the request path '/api/Notification'
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-05-15 10:11:34.7996|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-05-15 10:11:34.7996|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:11:34.8153|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotification(BiddingService.Models.Notification) on controller BiddingService.Controllers.NotificationController (BiddingService).
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' using the name '' in request data ...
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM721", Request id "0HN3KMPTKM721:00000001": started reading request body.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM721", Request id "0HN3KMPTKM721:00000001": done reading request body.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter threw an exception: '0xE2' is an invalid start of a value. Path: $.LotID | LineNumber: 1 | BytePositionInLine: 17.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter|The request has model state errors, returning an error response.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types 'application/problem+json, application/problem+xml, application/problem+json, application/problem+xml'.
+2024-05-15 10:11:34.8153|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-05-15 10:11:34.8153|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-15 10:11:34.8153|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BiddingService.Controllers.NotificationController.GetNotification (BiddingService) in 11.3109ms
+2024-05-15 10:11:34.8153|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:11:34.8153|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:7241/api/Notification - 400 - application/problem+json;+charset=utf-8 19.6430ms
+2024-05-15 10:11:41.1657|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM721" received FIN.
+2024-05-15 10:11:41.1657|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMPTKM721" is closed. The last processed stream ID was 1.
+2024-05-15 10:11:41.1657|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMPTKM721 completed.
+2024-05-15 10:11:41.1657|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM721" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:11:41.1657|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM721" stopped.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM722" accepted.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM722" received FIN.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM723" accepted.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM722" started.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM723" started.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM722" stopped.
+2024-05-15 10:13:32.0859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM722" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:13:32.1020|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMPTKM723 established using the following protocol: Tls12
+2024-05-15 10:13:32.1020|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7241/api/Notification - application/json 255
+2024-05-15 10:13:32.1020|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Notification'
+2024-05-15 10:13:32.1020|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)' with route pattern 'api/Notification' is valid for the request path '/api/Notification'
+2024-05-15 10:13:32.1020|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:13:32.1020|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-05-15 10:13:32.1151|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:13:32.1151|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetNotification", controller = "Notification"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetNotification(BiddingService.Models.Notification) on controller BiddingService.Controllers.NotificationController (BiddingService).
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BiddingService.Controllers.NotificationController (BiddingService)
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification' using the name '' in request data ...
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM723", Request id "0HN3KMPTKM723:00000001": started reading request body.
+2024-05-15 10:13:32.1151|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMPTKM723", Request id "0HN3KMPTKM723:00000001": done reading request body.
+2024-05-15 10:13:32.1324|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'BiddingService.Models.Notification'
+2024-05-15 10:13:32.1324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:13:32.1324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:13:32.1324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification' ...
+2024-05-15 10:13:32.1434|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'receivedNotification' of type 'BiddingService.Models.Notification'.
+2024-05-15 10:13:32.5722|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-15 10:13:32.5722|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-05-15 10:13:32.5722|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-15 10:13:32.5722|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-15 10:13:32.5722|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-15 10:13:32.5722|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'BiddingService.Models.Notification'.
+2024-05-15 10:13:32.5836|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BiddingService.Controllers.NotificationController.GetNotification (BiddingService) in 460.6948ms
+2024-05-15 10:13:32.5836|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BiddingService.Controllers.NotificationController.GetNotification (BiddingService)'
+2024-05-15 10:13:32.5836|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM723" completed keep alive response.
+2024-05-15 10:13:32.5836|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7241/api/Notification - 200 - application/json;+charset=utf-8 479.8331ms
+2024-05-15 10:15:43.4625|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM723" disconnecting.
+2024-05-15 10:15:43.4625|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMPTKM723" stopped.
+2024-05-15 10:15:43.4625|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMPTKM723" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:17:18.7136|DEBUG|BiddingService.Program|init main
+2024-05-15 10:17:19.5272|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-15 10:17:19.6167|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-05-15 10:17:19.6420|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 10:17:19.6563|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-00938bdf-98fe-4ed7-bd18-567c755e8dae.xml'.
+2024-05-15 10:17:19.6594|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-202e778a-2ced-4d36-9ca2-13780531bd1e.xml'.
+2024-05-15 10:17:19.6594|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-ec9528b5-4d07-4d15-b274-828eed4272d7.xml'.
+2024-05-15 10:17:19.6594|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00938bdf-98fe-4ed7-bd18-567c755e8dae}.
+2024-05-15 10:17:19.6750|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {202e778a-2ced-4d36-9ca2-13780531bd1e}.
+2024-05-15 10:17:19.6750|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ec9528b5-4d07-4d15-b274-828eed4272d7}.
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {ec9528b5-4d07-4d15-b274-828eed4272d7} with expiration date 2024-08-05 10:42:18Z as default key.
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-15 10:17:19.6907|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-15 10:17:19.7054|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {ec9528b5-4d07-4d15-b274-828eed4272d7} as the default key.
+2024-05-15 10:17:19.7054|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {ec9528b5-4d07-4d15-b274-828eed4272d7} was loaded during application startup.
+2024-05-15 10:17:19.8189|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7241
+2024-05-15 10:17:19.8189|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5143
+2024-05-15 10:17:19.8189|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BiddingService
+2024-05-15 10:17:19.8189|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-05-15 10:17:19.8189|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-15 10:17:19.8189|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-15 10:17:19.8609|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-15 10:17:19.8609|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-15 10:17:19.8634|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Claras PC\Desktop\4 semester\projekt\biddingservice\BiddingService
+2024-05-15 10:17:19.8634|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-05-15 10:17:19.9041|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGT" accepted.
+2024-05-15 10:17:19.9041|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGT" started.
+2024-05-15 10:17:19.9453|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMTOBPUGT established using the following protocol: Tls12
+2024-05-15 10:17:19.9583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGU" accepted.
+2024-05-15 10:17:19.9583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGU" started.
+2024-05-15 10:17:19.9583|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMTOBPUGU established using the following protocol: Tls12
+2024-05-15 10:17:20.0154|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/index.html - - -
+2024-05-15 10:17:20.0535|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-05-15 10:17:20.0889|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-05-15 10:17:20.0889|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:17:20.1610|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-05-15 10:17:20.1610|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-05-15 10:17:20.1922|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-05-15 10:17:20.1922|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-05-15 10:17:20.1922|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/index.html - 200 - text/html;charset=utf-8 184.4450ms
+2024-05-15 10:17:20.2454|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-15 10:17:20.2529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 7.3108ms
+2024-05-15 10:17:20.3939|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - - -
+2024-05-15 10:17:20.4574|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 63.3924ms
+2024-05-15 10:17:20.7225|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - - -
+2024-05-15 10:17:20.7225|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-15 10:17:20.7225|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:17:20.9161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 193.4566ms
+2024-05-15 10:17:26.7558|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMTOBPUGU" received FIN.
+2024-05-15 10:17:26.7558|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMTOBPUGT" received FIN.
+2024-05-15 10:17:26.7558|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMTOBPUGT completed.
+2024-05-15 10:17:26.7558|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMTOBPUGU completed.
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMTOBPUGT" is closed. The last processed stream ID was 7.
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMTOBPUGU" is closed. The last processed stream ID was 0.
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMTOBPUGT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMTOBPUGU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGT" stopped.
+2024-05-15 10:17:26.7709|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMTOBPUGU" stopped.
+2024-05-15 10:18:55.2061|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
+2024-05-15 10:18:55.2061|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopping
+2024-05-15 10:18:55.2220|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting stopped
+2024-05-15 10:19:09.3116|DEBUG|BiddingService.Program|init main
+2024-05-15 10:19:09.9191|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2024-05-15 10:19:09.9813|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2024-05-15 10:19:10.0057|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-00938bdf-98fe-4ed7-bd18-567c755e8dae.xml'.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-202e778a-2ced-4d36-9ca2-13780531bd1e.xml'.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Claras PC\AppData\Local\ASP.NET\DataProtection-Keys\key-ec9528b5-4d07-4d15-b274-828eed4272d7.xml'.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {00938bdf-98fe-4ed7-bd18-567c755e8dae}.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {202e778a-2ced-4d36-9ca2-13780531bd1e}.
+2024-05-15 10:19:10.0226|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {ec9528b5-4d07-4d15-b274-828eed4272d7}.
+2024-05-15 10:19:10.0431|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {ec9528b5-4d07-4d15-b274-828eed4272d7} with expiration date 2024-08-05 10:42:18Z as default key.
+2024-05-15 10:19:10.0431|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:19:10.0431|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2024-05-15 10:19:10.0431|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-05-15 10:19:10.0504|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2024-05-15 10:19:10.0504|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2024-05-15 10:19:10.0504|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {ec9528b5-4d07-4d15-b274-828eed4272d7} as the default key.
+2024-05-15 10:19:10.0504|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {ec9528b5-4d07-4d15-b274-828eed4272d7} was loaded during application startup.
+2024-05-15 10:19:10.1641|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7241
+2024-05-15 10:19:10.1641|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5143
+2024-05-15 10:19:10.1641|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly BiddingService
+2024-05-15 10:19:10.1641|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-05-15 10:19:10.1641|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-05-15 10:19:10.1641|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-05-15 10:19:10.2275|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-15 10:19:10.2275|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-15 10:19:10.2275|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Claras PC\Desktop\4 semester\projekt\biddingservice\BiddingService
+2024-05-15 10:19:10.2275|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2024-05-15 10:19:10.2920|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUM" received FIN.
+2024-05-15 10:19:10.2920|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUN" received FIN.
+2024-05-15 10:19:10.2920|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUM" accepted.
+2024-05-15 10:19:10.2920|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUN" accepted.
+2024-05-15 10:19:10.3000|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUN" started.
+2024-05-15 10:19:10.3000|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUM" started.
+2024-05-15 10:19:10.3000|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:19:10.3000|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:19:10.3348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUN" stopped.
+2024-05-15 10:19:10.3348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUM" stopped.
+2024-05-15 10:19:10.3348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:19:10.3348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:19:10.3536|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUO" accepted.
+2024-05-15 10:19:10.3536|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUO" started.
+2024-05-15 10:19:10.3978|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMUP8HKUO established using the following protocol: Tls12
+2024-05-15 10:19:10.4587|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/index.html - - -
+2024-05-15 10:19:10.4835|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2024-05-15 10:19:10.5029|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2024-05-15 10:19:10.5029|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:19:10.5753|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup is scheduled to include Browser Link script injection.
+2024-05-15 10:19:10.5753|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2024-05-15 10:19:10.6017|DEBUG|Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware|Response markup was updated to include Browser Link script injection.
+2024-05-15 10:19:10.6017|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2024-05-15 10:19:10.6017|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/index.html - 200 - text/html;charset=utf-8 150.4970ms
+2024-05-15 10:19:10.6254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-15 10:19:10.6254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - - -
+2024-05-15 10:19:10.6322|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript;+charset=utf-8 6.5563ms
+2024-05-15 10:19:10.6698|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 44.2093ms
+2024-05-15 10:19:10.8361|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - - -
+2024-05-15 10:19:10.8361|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2024-05-15 10:19:10.8361|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2024-05-15 10:19:11.0146|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7241/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 178.4358ms
+2024-05-15 10:19:16.8503|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUO" received FIN.
+2024-05-15 10:19:16.8503|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|The connection queue processing loop for 0HN3KMUP8HKUO completed.
+2024-05-15 10:19:16.8673|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HN3KMUP8HKUO" is closed. The last processed stream ID was 7.
+2024-05-15 10:19:16.8673|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:19:16.8796|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUO" stopped.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUP" accepted.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUP" received FIN.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUQ" accepted.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUP" started.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUP" stopped.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUQ" started.
+2024-05-15 10:20:03.5046|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HN3KMUP8HKUP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-05-15 10:20:03.5329|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HN3KMUP8HKUQ established using the following protocol: Tls12
+2024-05-15 10:20:03.5388|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST https://localhost:7241/api/Bidding - application/json 132
+2024-05-15 10:20:03.5388|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/api/Bidding'
+2024-05-15 10:20:03.5516|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'BiddingService.Controllers.BiddingController.PlaceBid (BiddingService)' with route pattern 'api/Bidding' is valid for the request path '/api/Bidding'
+2024-05-15 10:20:03.5516|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'BiddingService.Controllers.BiddingController.PlaceBid (BiddingService)'
+2024-05-15 10:20:03.5516|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2024-05-15 10:20:03.6057|DEBUG|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|AuthenticationScheme: Bearer was not authenticated.
+2024-05-15 10:20:03.6057|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'BiddingService.Controllers.BiddingController.PlaceBid (BiddingService)'
+2024-05-15 10:20:03.6540|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "PlaceBid", controller = "Bidding"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PlaceBid(BiddingService.Models.Bid) on controller BiddingService.Controllers.BiddingController (BiddingService).
+2024-05-15 10:20:03.6540|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2024-05-15 10:20:03.6540|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2024-05-15 10:20:03.6595|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2024-05-15 10:20:03.6595|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2024-05-15 10:20:03.6595|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2024-05-15 10:20:03.6595|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller BiddingService.Controllers.BiddingController (BiddingService)
+2024-05-15 10:20:03.6747|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller BiddingService.Controllers.BiddingController (BiddingService)
+2024-05-15 10:20:03.6747|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'bid' of type 'BiddingService.Models.Bid' ...
+2024-05-15 10:20:03.6747|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'bid' of type 'BiddingService.Models.Bid' using the name '' in request data ...
+2024-05-15 10:20:03.6908|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-05-15 10:20:03.6908|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMUP8HKUQ", Request id "0HN3KMUP8HKUQ:00000001": started reading request body.
+2024-05-15 10:20:03.6908|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HN3KMUP8HKUQ", Request id "0HN3KMUP8HKUQ:00000001": done reading request body.
+2024-05-15 10:20:03.7085|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'BiddingService.Models.Bid'
+2024-05-15 10:20:03.7085|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'bid' of type 'BiddingService.Models.Bid'.
+2024-05-15 10:20:03.7085|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'bid' of type 'BiddingService.Models.Bid'.
+2024-05-15 10:20:03.7085|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'bid' of type 'BiddingService.Models.Bid' ...
+2024-05-15 10:20:03.7286|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'bid' of type 'BiddingService.Models.Bid'.
+2024-05-15 10:20:04.2009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2024-05-15 10:20:04.2009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2024-05-15 10:20:04.2009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-05-15 10:20:04.2009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2024-05-15 10:20:04.2009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-05-15 10:20:04.2009|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'BiddingService.Models.Bid'.
+2024-05-15 10:20:04.2292|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action BiddingService.Controllers.BiddingController.PlaceBid (BiddingService) in 552.5368ms
+2024-05-15 10:20:04.2292|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'BiddingService.Controllers.BiddingController.PlaceBid (BiddingService)'
+2024-05-15 10:20:04.2292|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HN3KMUP8HKUQ" completed keep alive response.
+2024-05-15 10:20:04.2292|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/1.1 POST https://localhost:7241/api/Bidding - 200 - application/json;+charset=utf-8 693.5917ms
