@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using RabbitMQ.Client;
 using BiddingService.Models;
 using BiddingService.Service.LotService.Services;
+using System.Net.Mail;
 
 namespace BiddingService.Controllers
 {
@@ -23,6 +24,7 @@ namespace BiddingService.Controllers
         [HttpPost]
         public async Task<IActionResult> GetNotification([FromBody] Notification receivedNotification)
         {
+            AuctionCoreLogger.Logger.Info($"Recieved notification ment for: {receivedNotification.RecieverMail}");
             try
             {
                 // Simulating some asynchronous operation (e.g., database operation)
