@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RabbitMQ.Client;
 using BiddingService.Models;
+using BiddingService.Service.LotService.Services;
 
 namespace BiddingService.Controllers
 {
@@ -82,8 +83,8 @@ namespace BiddingService.Controllers
                                        routingKey: Environment.GetEnvironmentVariable("RabbitMQQueueName"),
                                        basicProperties: null,
                                        body: body);
-                    
-                
+
+                AuctionCoreLogger.Logger.Info("Notifikation sendt til mailqueue");
 
                 // If there are no exceptions, the notification was successfully sent
                 return Ok(receivedNotification);

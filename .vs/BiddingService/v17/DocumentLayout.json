@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\service\\auctioncorelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|solutionrelative:biddingservice\\service\\auctioncorelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|solutionrelative:biddingservice\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|solutionrelative:biddingservice\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\service\\auctioncorelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|solutionrelative:biddingservice\\service\\auctioncorelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,19 +127,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "BiddingService\\Controllers\\NotificationController.cs",
+              "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "BiddingService\\Controllers\\NotificationController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAYwFYAAABSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T11:16:03.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AuctionCoreLogger.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Service\\AuctionCoreLogger.cs",
               "RelativeDocumentMoniker": "BiddingService\\Service\\AuctionCoreLogger.cs",
               "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Service\\AuctionCoreLogger.cs",
               "RelativeToolTip": "BiddingService\\Service\\AuctionCoreLogger.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T10:53:43.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "BiddingService\\Models\\Notification.cs",
@@ -147,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BidService.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Service\\BidService.cs",
               "RelativeDocumentMoniker": "BiddingService\\Service\\BidService.cs",
@@ -165,14 +182,14 @@
               "RelativeDocumentMoniker": "BiddingService\\Controllers\\BiddingController.cs",
               "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Controllers\\BiddingController.cs",
               "RelativeToolTip": "BiddingService\\Controllers\\BiddingController.cs",
-              "ViewState": "AQIAABEAAADQzMzMzEw8wB0AAAAMAAAA",
+              "ViewState": "AQIAACMAAACAmZmZmZkqwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T08:03:11.68Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Bid.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Models\\Bid.cs",
               "RelativeDocumentMoniker": "BiddingService\\Models\\Bid.cs",
@@ -184,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Worker.cs",
               "RelativeDocumentMoniker": "BiddingService\\Worker.cs",
@@ -196,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "NLog.config",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\NLog.config",
               "RelativeDocumentMoniker": "BiddingService\\NLog.config",
@@ -208,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "WebManager.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Service\\WebManager.cs",
               "RelativeDocumentMoniker": "BiddingService\\Service\\WebManager.cs",
@@ -220,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Program.cs",
               "RelativeDocumentMoniker": "BiddingService\\Program.cs",
@@ -232,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IViewBidHistory.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
@@ -244,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Notification.cs",
@@ -256,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "MailModel.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
@@ -268,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Program.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Program.cs",
@@ -280,7 +297,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
@@ -292,7 +309,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BidHistoryDB.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
@@ -304,7 +321,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -316,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
@@ -328,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MailNotiMix.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "INotification.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RabbitMQTemplate.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
@@ -364,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Bid.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Bid.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Bid.cs",
@@ -376,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "BidService.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Service\\BidService.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Service\\BidService.cs",
@@ -388,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "BiddingController.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
@@ -400,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IBiddingRepo.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
