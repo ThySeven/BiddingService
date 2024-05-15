@@ -3,64 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\biddingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC5FD1C3-B22C-4FC8-882E-06A55200CBE4}|BiddingService\\BiddingService.csproj|solutionrelative:biddingservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Models\\MailModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\controllers\\notificationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{41D5B0D1-69E3-4BA1-BD0A-80D7EACDC4DE}|Solution Items{41D5B0D1-69E3-4BA1-BD0A-80D7EACDC4DE}|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{41D5B0D1-69E3-4BA1-BD0A-80D7EACDC4DE}|Solution Items{41D5B0D1-69E3-4BA1-BD0A-80D7EACDC4DE}|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\repository\\bidhistorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\repository\\bidhistorydb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\repository\\iviewbidhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\repository\\iviewbidhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\models\\mailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\models\\mailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Models\\Notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\models\\mailnotimix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\models\\mailnotimix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\repository\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\repository\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\rabbitmqtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\rabbitmqtemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\INotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Repository\\INotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\models\\bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\service\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\service\\bidservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Models\\Bid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Service\\BidService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Service\\BidService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|c:\\users\\claras pc\\desktop\\4 semester\\projekt\\biddingservice\\microserviceswebapitemplate\\repository\\ibiddingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F2FE4DC-D04E-439E-A121-2BC6BB274896}|MicroservicesWEBAPITemplate\\BiddingService.csproj|solutionrelative:microserviceswebapitemplate\\repository\\ibiddingrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,7 +90,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Program.cs",
+              "RelativeDocumentMoniker": "BiddingService\\Program.cs",
+              "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\BiddingService\\Program.cs",
+              "RelativeToolTip": "BiddingService\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T07:04:10.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IViewBidHistory.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
@@ -94,12 +111,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\IViewBidHistory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T12:53:25.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T12:53:25.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Notification.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Notification.cs",
@@ -107,25 +123,24 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\Notification.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T12:12:00.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T12:12:00.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "MailModel.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
               "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\MailModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T12:03:01.172Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Program.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Program.cs",
@@ -133,12 +148,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Program.cs",
               "ViewState": "AQIAADQAAADAzMzMzMwmwB8AAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:35:40.115Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T12:35:40.115Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
@@ -146,25 +160,23 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Properties\\launchSettings.json",
               "ViewState": "AQIAACIAAACAmZmZmZkpwDoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T10:49:07.637Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T10:49:07.637Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BidHistoryDB.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
               "ToolTip": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\BidHistoryDB.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAawBEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T12:57:30.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T12:57:30.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
@@ -172,12 +184,11 @@
               "RelativeToolTip": "Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-13T15:11:52.867Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T15:11:52.867Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
@@ -185,12 +196,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Controllers\\NotificationController.cs",
               "ViewState": "AQIAAC8AAACAmZmZmZkJwEUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:59:03.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T11:59:03.379Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "MailNotiMix.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs",
@@ -198,12 +208,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\MailNotiMix.cs",
               "ViewState": "AQIAAAgAAABgZmZmZmYowA8AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:18:46.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T16:18:46.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "INotification.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
@@ -211,12 +220,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\INotification.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:17:36.147Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T11:17:36.147Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "RabbitMQTemplate.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
@@ -224,12 +232,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\RabbitMQTemplate.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:16:44.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T10:16:44.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Bid.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Models\\Bid.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Models\\Bid.cs",
@@ -237,12 +244,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Models\\Bid.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T09:06:48.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T09:06:48.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "BidService.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Service\\BidService.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Service\\BidService.cs",
@@ -250,12 +256,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Service\\BidService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:57:19.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:57:19.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "BiddingController.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
@@ -263,12 +268,11 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Controllers\\BiddingController.cs",
               "ViewState": "AQIAACAAAACAZmZmZmYgwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:32:43.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:32:43.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "IBiddingRepo.cs",
               "DocumentMoniker": "C:\\Users\\Claras PC\\Desktop\\4 semester\\projekt\\biddingservice\\MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
               "RelativeDocumentMoniker": "MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
@@ -276,8 +280,7 @@
               "RelativeToolTip": "MicroservicesWEBAPITemplate\\Repository\\IBiddingRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T08:20:22.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T08:20:22.832Z"
             }
           ]
         }
