@@ -27,7 +27,7 @@ namespace BiddingService.Controllers
             try
             {
                 // Your logic to handle the bid goes here
-                Console.WriteLine($"{bid.Bidder} has placed a bid of {bid.Amount} at {bid.Timestamp}");
+                Console.WriteLine($"{bid.BidderId} has placed a bid of {bid.Amount} at {bid.Timestamp}");
 
                 // Simulating some asynchronous operation (e.g., database operation)
                 await Task.Delay(100);
