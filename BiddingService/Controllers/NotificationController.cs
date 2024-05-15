@@ -24,7 +24,7 @@ namespace BiddingService.Controllers
         [HttpPost]
         public async Task<IActionResult> GetNotification([FromBody] Notification receivedNotification)
         {
-            AuctionCoreLogger.Logger.Info($"Recieved notification ment for: {receivedNotification.RecieverMail}");
+            AuctionCoreLogger.Logger.Info($"Recieved notification ment for: {receivedNotification.ReceiverMail}");
             try
             {
                 // Simulating some asynchronous operation (e.g., database operation)
@@ -41,7 +41,7 @@ namespace BiddingService.Controllers
 
                  // Create a MailModel object
                  MailModel mail = new MailModel();
-                 mail.ReceiverMail = receivedNotification.RecieverMail;
+                 mail.ReceiverMail = receivedNotification.ReceiverMail;
                  mail.Header = $"Du er blevet overbudt på lot nummer {receivedNotification.LotName}";
                  mail.Content = @$"<!DOCTYPE html>
 <html lang=""en"">
