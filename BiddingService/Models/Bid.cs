@@ -4,7 +4,7 @@ namespace BiddingService.Models
 {
     public class Bid
     {
-        public int LotId {  get; set; }
+        public string LotId {  get; set; }
         public int Amount { get; set; }
         public string Bidder { get; set; }
         public DateTime Timestamp { get; set; }
