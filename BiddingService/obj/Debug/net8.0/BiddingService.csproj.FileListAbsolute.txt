@@ -1,0 +1,8 @@
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.csproj.AssemblyReference.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.AssemblyInfoInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.AssemblyInfo.cs
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.csproj.CoreCompileInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\Projekt\BiddingService\BiddingService\obj\Debug\net8.0\BiddingService.sourcelink.json
