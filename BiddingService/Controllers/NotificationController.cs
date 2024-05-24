@@ -59,7 +59,6 @@ namespace BiddingService.Controllers
         <ul>
             <li><strong>Lot ID:</strong> {receivedNotification.LotId}</li>
             <li><strong>Lot Name:</strong> {receivedNotification.LotName}</li>
-            <li><strong>New Lot Price:</strong> {receivedNotification.NewLotPrice}</li>
             <li><strong>Auction End Time:</strong> {receivedNotification.TimeStamp}</li>
         </ul>
         <p>To place a higher bid, please click the following link:</p>
@@ -97,6 +96,9 @@ namespace BiddingService.Controllers
                 Console.WriteLine($"Error sending notification: {ex.Message}");
                 throw; // Re-throw the exception to propagate it
             }
+
+            
         }
+
     }
 }

@@ -18,7 +18,8 @@ namespace BiddingService.Controllers
         public BiddingController(IBiddingRepo bidService)
         {
             _bidService = bidService;
-            _factory = new ConnectionFactory { HostName = Environment.GetEnvironmentVariable("RabbitMQHostName") };
+            var rabbitMQHostName = Environment.GetEnvironmentVariable("RabbitMQHostName") ?? "localhost"; // Provide a default hostname
+            _factory = new ConnectionFactory { HostName = rabbitMQHostName };
         }
 
         [HttpPost]
@@ -64,7 +65,21 @@ namespace BiddingService.Controllers
                 Console.WriteLine($"Error placing bid: {ex.Message}");
                 throw; // Re-throw the exception to propagate it
             }
+
+           
+        }
+
+        [HttpGet("lot/{id}")]
+
+        public async Task<IActionResult> BidAgain(string id)
+        {
+
+
+            return Ok($"dette er en dummy side for lot:{id}");
+
+
         }
     }
+
 }
 
