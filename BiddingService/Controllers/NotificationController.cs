@@ -7,6 +7,7 @@ using RabbitMQ.Client;
 using BiddingService.Models;
 using BiddingService.Service.LotService.Services;
 using System.Net.Mail;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BiddingService.Controllers
 {
@@ -21,6 +22,7 @@ namespace BiddingService.Controllers
             _factory = new ConnectionFactory { HostName = Environment.GetEnvironmentVariable("RabbitMQHostName") };
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> GetNotification([FromBody] Notification receivedNotification)
         {

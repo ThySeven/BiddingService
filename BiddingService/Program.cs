@@ -14,12 +14,14 @@ using VaultSharp.V1.AuthMethods.Token;
 using VaultSharp.V1.Commons;
 using BiddingService.Repository;
 using BiddingService.Service;
+using System.Security.Claims;
 
 var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
 logger.Debug("init main");
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Logging.ClearProviders();
+builder.Host.UseNLog();
 // Fetching necessary environment variables
 var EndPoint = Environment.GetEnvironmentVariable("VAULT_IP");
 var vaultSecret = Environment.GetEnvironmentVariable("VAULT_SECRET");
@@ -70,35 +72,35 @@ builder.Services
     {
         OnMessageReceived = context =>
         {
-            // Check for the internal API key header
+            //AuctionCoreLogger.Logger.Info($"Received API Call from {context.Request.Headers.Origin}");
+
             if (context.Request.Headers.TryGetValue("X-Internal-ApiKey", out var extractedApiKey))
             {
                 var internalApiKey = vaultInternalApiKey; // or fetch from configuration
                 if (internalApiKey.Equals(extractedApiKey))
                 {
-                    // Set a flag to indicate this is an internal request
+                    //AuctionCoreLogger.Logger.Info($"JWTBypass {context.Request.Headers.Origin}");
                     context.HttpContext.Items["InternalRequest"] = true;
 
-                    // Skip JWT token validation for internal requests
-                    context.NoResult();
+                    // Skip JWT token processing
+                    context.Token = null;
+
                     context.Response.Headers.Add("X-Auth-Skipped", "true");
                 }
             }
+
             return Task.CompletedTask;
         },
         OnTokenValidated = context =>
         {
-            // If it's an internal request, mark it as successful
             if (context.HttpContext.Items.ContainsKey("InternalRequest"))
             {
                 context.Success();
-                return Task.CompletedTask;
             }
             return Task.CompletedTask;
         },
         OnChallenge = context =>
         {
-            // If it's an internal request, don't return a 401 error
             if (context.HttpContext.Items.ContainsKey("InternalRequest"))
             {
                 context.HandleResponse(); // This suppresses the default 401
@@ -107,15 +109,42 @@ builder.Services
         }
     };
 });
+builder.Services.AddAuthorization(options =>
+{
+    // Policy that checks for the internal request item
+    options.AddPolicy("InternalRequestPolicy", policy =>
+    {
+        policy.RequireAssertion(context =>
+            context.User.Identity.IsAuthenticated ||
+            (context.Resource as HttpContext)?.Items?.ContainsKey("InternalRequest") == true);
+    });
+});
+
 // Add services to the container
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IBiddingRepo, BidService>();
 
+var app = builder.Build();
+
+app.Use(async (context, next) =>
+{
+    if (context.Items.ContainsKey("InternalRequest"))
+    {
+        var identity = new ClaimsIdentity(new[]
+        {
+            new Claim(ClaimTypes.Name, "InternalUser")
+        }, "InternalAuthScheme");
+
+        context.User = new ClaimsPrincipal(identity);
+    }
+
+    await next();
+});
+
 // Clearing default logging providers and using NLog
-builder.Logging.ClearProviders();
-builder.Host.UseNLog();
+
 
 var app = builder.Build();
 

@@ -5,6 +5,7 @@ using System;
 using System.Text;
 using System.Threading.Tasks;
 using RabbitMQ.Client;
+using BiddingService.Service;
 
 namespace BiddingService.Controllers
 {
@@ -31,7 +32,6 @@ namespace BiddingService.Controllers
 
                 Console.WriteLine($"{bid.BidderId} has placed a bid of {bid.Amount} at {bid.Timestamp}");
 
-
                 // Simulating some asynchronous operation (e.g., database operation)
                 await Task.Delay(100);
 
@@ -57,7 +57,7 @@ namespace BiddingService.Controllers
                 }
 
                 // If there are no exceptions, the bid was successfully placed
-                return Ok(bid);
+                return Ok("You have placed a bid!");
             }
             catch (Exception ex)
             {
