@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using RabbitMQ.Client;
 using BiddingService.Service;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BiddingService.Controllers
 {
@@ -23,6 +24,7 @@ namespace BiddingService.Controllers
             _factory = new ConnectionFactory { HostName = rabbitMQHostName };
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> PlaceBid([FromBody] Bid bid)
         {
