@@ -22,7 +22,7 @@ namespace BiddingService.Controllers
             _factory = new ConnectionFactory { HostName = Environment.GetEnvironmentVariable("RabbitMQHostName") };
         }
 
-        [Authorize]
+        [Authorize(Policy = "InternalRequestPolicy")]
         [HttpPost]
         public async Task<IActionResult> GetNotification([FromBody] Notification receivedNotification)
         {

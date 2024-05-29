@@ -24,7 +24,7 @@ namespace BiddingService.Controllers
             _factory = new ConnectionFactory { HostName = rabbitMQHostName };
         }
 
-        [Authorize]
+        [Authorize(Policy = "InternalRequestPolicy")]
         [HttpPost]
         public async Task<IActionResult> PlaceBid([FromBody] Bid bid)
         {
